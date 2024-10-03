@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="main-div">
+      <div id="container" class="container">
+        <p id="update-msg" class="update-msg">Choose Symbol to start game</p>
+        <div class="sub-container">
+          <button id="0" class="row"></button>
+          <button id="1" class="row"></button>
+          <button id="2" class="row"></button>
+          <button id="3" class="row"></button>
+          <button id="4" class="row"></button>
+          <button id="5" class="row"></button>
+          <button id="6" class="row"></button>
+          <button id="7" class="row"></button>
+          <button id="8" class="row"></button>
+        </div>
+        <div class="player">
+          <div class="btn">
+            <div class="btn1">
+              <p class="chooseSmbl">Choose your Symbol</p>
+              <div class="players">
+                <button id="X">X</button>
+                <button id="O">O</button>
+              </div>
+            </div>
+            <div class="btn2">
+              <p class="chooseSmbl">Restart game</p>
+              <button id="reset-game">Restart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
