@@ -11,7 +11,7 @@
   align-items: center;
   flex-direction: column;
   width: 100%;
-  background: linear-gradient(to bottom, #800080d5, #ff0000d5);
+  background: linear-gradient(to bottom, #81dde5, #3b75bf);
 }
 #update-msg {
   font-size: 1.6rem;
@@ -24,7 +24,7 @@
   grid-template-columns: repeat(3, 110px);
   align-items: center;
   justify-content: center;
-  gap: 15px;
+  gap: 0px;
   padding: 30px 0;
 }
 .row {
@@ -33,8 +33,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: lightcyan;
-  box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.8);
+  background-color: white;
+  box-shadow: 0px 0px 1px 2px rgba(0, 0, 0, 0.8);
   border: none;
   border: 3px solid black;
   border-radius: 0.5rem;
@@ -44,7 +44,7 @@
   transition: background-color 0.2s;
 }
 .row:hover {
-  background-color: rgb(199, 239, 239);
+  background-color: white;
 }
 .player {
   display: flex;

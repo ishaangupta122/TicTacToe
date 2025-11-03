@@ -67,13 +67,13 @@ const game = () => {
           alert("Choose a Symbol first!!");
         } else if (currPlayer == player1) {
           element.innerText = "X";
-          element.style.color = "red";
+          element.style.color = "#4eb9bf";
           currPlayer = player2;
           element.disabled = true;
           updateMsg.innerText = "player O turn";
         } else {
           element.innerText = "O";
-          element.style.color = "#890189";
+          element.style.color = "#2c64ac";
           currPlayer = player1;
           element.disabled = true;
           updateMsg.innerText = "player X turn";
@@ -91,9 +91,9 @@ const game = () => {
       for (let row of cells) {
         row.innerText = "";
         row.disabled = true;
-        pos1Cell.style.backgroundColor = "lightcyan";
-        pos2Cell.style.backgroundColor = "lightcyan";
-        pos3Cell.style.backgroundColor = "lightcyan";
+        pos1Cell.style.backgroundColor = "white";
+        pos2Cell.style.backgroundColor = "white";
+        pos3Cell.style.backgroundColor = "white";
       }
     }
     currPlayer = 0;
